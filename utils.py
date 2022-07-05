@@ -1,6 +1,6 @@
 def load_random_word(dictionary):
     """ Функция выбора случайного слова и его составных подслов"""
-    from course_work1.ClassBasicword import Basicword
+    from course_work1.class_basicword import Basicword
     from random import shuffle
     shuffle(dictionary)
     random_word = dictionary[0]

@@ -1,7 +1,7 @@
 import requests
 
 # Импорт модулей
-from course_work1.ClassPlayer import Player
+from course_work1.class_player import Player
 from course_work1.utils import load_random_word, hello, ask_while_not_stop
 
 
@@ -21,6 +21,3 @@ def main():
 # Точка входа
 if __name__ == '__main__':
     main()
-
-
-
